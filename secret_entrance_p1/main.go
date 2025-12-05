@@ -23,6 +23,7 @@ func getFileContent() (string, error) {
 	return input, nil
 }
 
+
 func processLine(line string, currentNum int) (int, error) {
 	var newCurrentNum int
 
